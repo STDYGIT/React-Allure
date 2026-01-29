@@ -1,0 +1,22 @@
+{
+    "name": "allure-marketing",
+    "version": "1.0.0",
+    "scripts": {
+        "dev:frontend": "cd frontend && npm start",
+        "dev:backend": "cd backend && npm run dev",
+        "build": "cd frontend && npm install && npm run build"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.93.2",
+        "bcryptjs": "^3.0.3",
+        "cors": "^2.8.6",
+        "express": "^5.2.1",
+        "jsonwebtoken": "^9.0.3",
+        "multer": "^2.0.2",
+        "multer-storage-cloudinary": "^4.0.0",
+        "serverless-http": "^3.2.0"
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}

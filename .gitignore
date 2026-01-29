@@ -1,0 +1,43 @@
+# Ignore entire backend folder
+backend/
+# =========================
+# Node / Common
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!*.example
+
+# =========================
+# Backend
+# =========================
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/dist/
+
+# =========================
+# Frontend (Vite / React)
+# =========================
+allure-react/node_modules/
+allure-react/dist/
+allure-react/.env
+
+# =========================
+# Netlify
+# =========================
+.netlify/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+.vscode/
+.idea/
